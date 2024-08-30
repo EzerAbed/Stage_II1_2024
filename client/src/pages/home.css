@@ -1,0 +1,16 @@
+.back-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligne les éléments au début de l'axe principal */
+  }
+  
+  .back-details .d-flex {
+    display: flex;
+    align-items: center; /* Centre verticalement les éléments */
+  }
+  
+  .back-details .d-flex p {
+    margin-bottom: 0; /* Supprime la marge inférieure par défaut du paragraphe */
+    margin-right: 1rem; /* Ajoute de l'espace entre le texte et le bouton */
+  }
+  

@@ -1,0 +1,15 @@
+.custom-dropdown-button {
+    background-color: transparent; /* Supprimer la couleur de fond */
+    border: none; /* Supprimer la bordure */
+    color: inherit; /* Conserver la couleur du texte héritée */
+  }
+  
+  .custom-dropdown-button:focus {
+    box-shadow: none; /* Supprimer l'ombre portée sur le focus */
+    outline: none; /* Supprimer le contour de focus */
+  }
+  
+  .custom-dropdown-button .dropdown-toggle::after {
+    display: none; /* Supprimer la flèche du dropdown */
+  }
+  

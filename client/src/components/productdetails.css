@@ -1,0 +1,27 @@
+.reviews-section {
+    display: flex;
+  }
+  
+  .review-form-container,
+  .reviews-list {
+    flex: 1;
+  }
+  
+  .review-form-container {
+    margin-right: 20px;
+  }
+  
+  .review {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .bi-star {
+    color: #f8c104; /* Yellow color for stars */
+  }
+  
+  .bi-star-fill {
+    color: #f8c104;
+  }
+  
